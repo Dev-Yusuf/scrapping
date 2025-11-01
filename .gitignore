@@ -1,0 +1,44 @@
+# Environment variables and secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+scraper.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+output/
+debug_raw_*.json
+*.cache
+
+# Test files (optional - uncomment if you don't want test files in git)
+# quick_test.py
+
+# Keep templates and examples
+!config.env.template
+!.env.example
+
